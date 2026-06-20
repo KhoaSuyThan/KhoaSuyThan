@@ -5,14 +5,17 @@
 </h3>
 
 <p align="center">
+  <a href="https://portfolio-lk-weld.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Website-10B981?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
   <a href="https://github.com/KhoaSuyThan">
-    <img src="https://img.shields.io/badge/GitHub-KhoaSuyThan-181717?style=flat&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-KhoaSuyThan-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:khoanv249@gmail.com">
-    <img src="https://img.shields.io/badge/Email-khoanv249%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-khoanv249%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://linkedin.com/in/nguyễn-võ-lê-khoa-7994823b5">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
@@ -21,9 +24,10 @@
 ## 👨‍💻 About Me
 
 - 🎓 Software Engineering student at HUTECH, Vietnam.
+- 🌐 **Explore my full profile and projects on my [Personal Portfolio](https://portfolio-lk-weld.vercel.app/).**
 - 💻 Passionate about building robust **web applications**, cross-platform **mobile apps**, and exploring **AI/ML fundamentals**.
 - 🚀 Recent highlights: A **SmartCV AI Builder** (ASP.NET Core MVC), a **Smart Cooking App** (Flutter & Firebase), and a **Face Recognition System** (PCA & OpenCV).
-- 🌱 Currently diving deeper into **.NET ecosystem (C#)**, **System Architecture**, and **3D Modeling**.
+- 🌱 Currently diving deeper into the **.NET ecosystem (C#)**, **System Architecture**, and **3D Modeling**.
 - 📫 Reach out to me: **khoanv249@gmail.com**
 
 ---
@@ -64,15 +68,20 @@ A computer vision project implementing Principal Component Analysis (PCA) for ef
 - **Tech Stack:** Python, OpenCV, PCA Algorithm.
 - **Features:** Image preprocessing, feature extraction (Eigenfaces), and accurate classification tested on custom datasets.
 
+### 🏨 Secure Hotel Management System
+A robust desktop application built to streamline hotel operations with applied information security features.
+- **Tech Stack:** C# (WinForms), Entity Framework, SQL Server.
+- **Features:** Efficient data management, access control, and implementation of security practices to protect sensitive information.
+
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.shion.dev/api?username=KhoaSuyThan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
-  <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=KhoaSuyThan&theme=tokyonight&hide_border=true&layout=compact" />
+  <img height="170" src="https://github-readme-stats.shion.dev/api?username=KhoaSuyThan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=KhoaSuyThan&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img width="80%" src="https://streak-stats.demolab.com?user=KhoaSuyThan&theme=tokyonight&hide_border=true" />
+  <img width="80%" src="https://streak-stats.demolab.com?user=KhoaSuyThan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
