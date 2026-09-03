@@ -47,33 +47,16 @@
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=firebase)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat&logo=blender&logoColor=white)
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Project
 
 ### 🤖 SmartCV AI
 An intelligent web platform enabling users to dynamically build, manage, and optimize professional resumes with AI assistance.
 - **Tech Stack:** ASP.NET Core MVC, SQL Server, Entity Framework, JavaScript.
 - **Features:** Relational database design for user-resume mapping, AI-driven content enhancement, and seamless UI/UX.
 - 🔗 **Live Demo:** [smartcv-ai.io.vn](https://smartcv-ai.io.vn/)
-
-### 🍽️ Smart Cooking & Community App
-A cross-platform mobile application for discovering recipes and interactive cooking guidance.
-- **Tech Stack:** Flutter, Dart, Firebase (Cloud Firestore), TheMealDB API.
-- **Features:** Real-time data syncing, API integration for dynamic recipe fetching, and automated translation features.
-
-### 🧠 Real-time Face Recognition System
-A computer vision project implementing Principal Component Analysis (PCA) for efficient dimensionality reduction and face classification.
-- **Tech Stack:** Python, OpenCV, PCA Algorithm.
-- **Features:** Image preprocessing, feature extraction (Eigenfaces), and accurate classification tested on custom datasets.
-
-### 🏨 Secure Hotel Management System
-A robust desktop application built to streamline hotel operations with applied information security features.
-- **Tech Stack:** C# (WinForms), Entity Framework, SQL Server.
-- **Features:** Efficient data management, access control, and implementation of security practices to protect sensitive information.
 
 ---
 
