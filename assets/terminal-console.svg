@@ -1,0 +1,165 @@
+<svg width="100%" height="100%" viewBox="0 0 950 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Font styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap');
+      .term-code { font-family: 'Fira Code', monospace, Consolas, Courier; }
+      .cursor-blink {
+        animation: blink 1s step-start infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+    <!-- Gradients -->
+    <linearGradient id="termBgGrad" x1="0" y1="0" x2="950" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b101b" />
+      <stop offset="100%" stop-color="#060911" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="950" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#131c2e" />
+      <stop offset="100%" stop-color="#0e1625" />
+    </linearGradient>
+    <linearGradient id="logoGrad" x1="40" y1="90" x2="200" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Window Container -->
+  <rect x="1" y="1" width="948" height="348" rx="10" fill="url(#termBgGrad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Header Bar -->
+  <path d="M 1 11 Q 1 1 11 1 L 939 1 Q 949 1 949 11 L 949 38 L 1 38 Z" fill="url(#headerGrad)" />
+  <line x1="1" y1="38" x2="949" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <!-- macOS Window Action Buttons -->
+  <circle cx="22" cy="19" r="6" fill="#ff5f56" />
+  <circle cx="42" cy="19" r="6" fill="#ffbd2e" />
+  <circle cx="62" cy="19" r="6" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="475" y="24" text-anchor="middle" class="term-code" fill="#94a3b8" font-size="12" font-weight="500">khoa@workstation: ~ (zsh) — neofetch</text>
+
+  <!-- Header Right Badge -->
+  <rect x="850" y="8" width="82" height="22" rx="4" fill="#0b111e" stroke="#1e3a8a" stroke-width="0.8" />
+  <text x="891" y="23" text-anchor="middle" class="term-code" fill="#38bdf8" font-size="10.5" font-weight="600">UTF-8 • zsh</text>
+
+  <!-- Terminal Command Prompt -->
+  <g class="term-code" font-size="12.5">
+    <text x="35" y="65">
+      <tspan fill="#38bdf8" font-weight="bold">khoa@workstation</tspan><tspan fill="#64748b">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#64748b">$</tspan> <tspan fill="#facc15" font-weight="600">neofetch</tspan> <tspan fill="#94a3b8">--profile --smart-city</tspan>
+    </text>
+  </g>
+
+  <!-- ================= LEFT COLUMN: NEURAL AI CHIPSET EMBLEM ================= -->
+  <g transform="translate(10, 0)">
+    <!-- Chip Outer Pins -->
+    <line x1="88" y1="84" x2="88" y2="98" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="102" y1="84" x2="102" y2="98" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="116" y1="84" x2="116" y2="98" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="130" y1="84" x2="130" y2="98" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+
+    <line x1="88" y1="198" x2="88" y2="212" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="102" y1="198" x2="102" y2="212" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="116" y1="198" x2="116" y2="212" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="130" y1="198" x2="130" y2="212" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+
+    <line x1="60" y1="112" x2="74" y2="112" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="60" y1="126" x2="74" y2="126" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="60" y1="140" x2="74" y2="140" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="60" y1="154" x2="74" y2="154" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="60" y1="168" x2="74" y2="168" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="60" y1="182" x2="74" y2="182" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+
+    <line x1="144" y1="112" x2="158" y2="112" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="144" y1="126" x2="158" y2="126" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="144" y1="140" x2="158" y2="140" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="144" y1="154" x2="158" y2="154" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="144" y1="168" x2="158" y2="168" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <line x1="144" y1="182" x2="158" y2="182" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+
+    <!-- Chip Base Body -->
+    <rect x="74" y="98" width="70" height="100" rx="8" fill="#0d1527" stroke="#1e3a8a" stroke-width="1.8" />
+    <rect x="79" y="103" width="60" height="90" rx="6" fill="#090e1a" stroke="#0284c7" stroke-width="0.8" opacity="0.9" />
+
+    <!-- Internal Neural Circuitry Lines -->
+    <path d="M 88 116 L 98 126 L 109 126 L 109 138" stroke="#00f2fe" stroke-width="1.2" fill="none" opacity="0.75" />
+    <path d="M 130 116 L 120 126 L 109 126" stroke="#00f2fe" stroke-width="1.2" fill="none" opacity="0.75" />
+    <path d="M 88 180 L 98 170 L 109 170 L 109 158" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.75" />
+    <path d="M 130 180 L 120 170 L 109 170" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.75" />
+
+    <!-- Neural Nodes -->
+    <circle cx="88" cy="116" r="2.5" fill="#00f2fe" />
+    <circle cx="130" cy="116" r="2.5" fill="#00f2fe" />
+    <circle cx="88" cy="180" r="2.5" fill="#c084fc" />
+    <circle cx="130" cy="180" r="2.5" fill="#c084fc" />
+
+    <!-- Core Chip Die -->
+    <circle cx="109" cy="148" r="14" fill="#131c31" stroke="#00f2fe" stroke-width="1.5" />
+    <text x="109" y="153" text-anchor="middle" class="term-code" fill="#ffffff" font-size="12" font-weight="bold">AI</text>
+
+    <!-- Chip Info Labels Below -->
+    <text x="109" y="232" text-anchor="middle" class="term-code" fill="#00f2fe" font-size="11" font-weight="700">NEURAL CHIPSET</text>
+    <text x="109" y="248" text-anchor="middle" class="term-code" fill="#94a3b8" font-size="10">KHOA • AI &amp; WEB LAB</text>
+    <text x="109" y="264" text-anchor="middle" class="term-code" fill="#10b981" font-size="9.5" font-weight="600">● RUNNING @ 3.8 GHz</text>
+    <text x="109" y="280" text-anchor="middle" class="term-code" fill="#64748b" font-size="9">ARCH: X86_64 NEURAL</text>
+  </g>
+
+  <!-- Divider Line Between Logo and Specs -->
+  <line x1="215" y1="80" x2="215" y2="305" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="3,3" />
+
+  <!-- ================= RIGHT COLUMN: SYSTEM & PROFILE SPECS ================= -->
+  <g class="term-code" font-size="12" xml:space="preserve">
+    <!-- User Title Header -->
+    <text x="240" y="100">
+      <tspan fill="#38bdf8" font-weight="bold">khoa</tspan><tspan fill="#64748b">@</tspan><tspan fill="#38bdf8" font-weight="bold">workstation</tspan>
+      <tspan fill="#475569"> ---------------------------------------</tspan>
+    </text>
+
+    <!-- Specs List -->
+    <text x="240" y="122">
+      <tspan fill="#f43f5e" font-weight="600">Developer </tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#e2e8f0">Nguyen Vo Le Khoa (Khoa)</tspan>
+    </text>
+    <text x="240" y="142">
+      <tspan fill="#fbbf24" font-weight="600">Academy   </tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#e2e8f0">Software Engineering @ HUTECH University</tspan>
+    </text>
+    <text x="240" y="162">
+      <tspan fill="#34d399" font-weight="600">Core Focus</tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#93c5fd">Full-Stack Web Development &amp; Resilient Systems</tspan>
+    </text>
+    <text x="240" y="182">
+      <tspan fill="#38bdf8" font-weight="600">AI Passion</tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#c084fc">Applied AI, Computer Vision &amp; Smart City Integration</tspan>
+    </text>
+    <text x="240" y="202">
+      <tspan fill="#a855f7" font-weight="600">Stack     </tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#cbd5e1">ASP.NET Core, C#, React, Vue, Python, OpenCV, Docker</tspan>
+    </text>
+    <text x="240" y="222">
+      <tspan fill="#00f2fe" font-weight="600">Featured  </tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#00ff88">SmartCV AI Builder (smartcv-ai.io.vn)</tspan>
+    </text>
+    <text x="240" y="242">
+      <tspan fill="#ec4899" font-weight="600">Status    </tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#fef08a">Open for Software Engineering / Web &amp; AI Internship</tspan>
+    </text>
+    <text x="240" y="262">
+      <tspan fill="#64748b" font-weight="600">Motto     </tspan><tspan fill="#64748b">:&gt; </tspan><tspan fill="#94a3b8" font-style="italic">&quot;Bridging resilient web architectures with AI solutions&quot;</tspan>
+    </text>
+
+    <!-- Color Palette Blocks -->
+    <g transform="translate(240, 276)">
+      <rect x="0" y="0" width="18" height="12" rx="2" fill="#1e293b" />
+      <rect x="22" y="0" width="18" height="12" rx="2" fill="#ef4444" />
+      <rect x="44" y="0" width="18" height="12" rx="2" fill="#10b981" />
+      <rect x="66" y="0" width="18" height="12" rx="2" fill="#f59e0b" />
+      <rect x="88" y="0" width="18" height="12" rx="2" fill="#3b82f6" />
+      <rect x="110" y="0" width="18" height="12" rx="2" fill="#a855f7" />
+      <rect x="132" y="0" width="18" height="12" rx="2" fill="#00f2fe" />
+      <rect x="154" y="0" width="18" height="12" rx="2" fill="#f8fafc" />
+    </g>
+
+    <!-- Next Command Prompt with Active Blinking Cursor -->
+    <text x="240" y="316">
+      <tspan fill="#38bdf8" font-weight="bold">khoa@workstation</tspan><tspan fill="#64748b">:</tspan><tspan fill="#c084fc">~</tspan><tspan fill="#64748b">$</tspan> <tspan fill="#00f2fe" class="cursor-blink">█</tspan>
+    </text>
+  </g>
+</svg>

@@ -29,18 +29,9 @@
 <!-- ======================================================== -->
 ## 💻 Terminal Console
 
-```bash
-khoa@workstation:~$ neofetch --profile
-┌─────────────────────────── System Information ───────────────────────────┐
-│ • Developer  : Nguyen Vo Le Khoa (Khoa)                                  │
-│ • Academy    : Software Engineering @ HUTECH University, Vietnam         │
-│ • Core Focus : Full-Stack Web Development                                │
-│ • AI Passion : Applied AI, Computer Vision & Intelligent Web Integration │
-│ • Portfolio  : https://portfolio-lk-weld.vercel.app/                     │
-│ • Status     : Open for Software Engineering / Web & AI Internship roles │
-│ • Philosophy : "Bridging resilient web architectures with AI solutions"  │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="assets/terminal-console.svg" width="100%" alt="Terminal Console Neofetch" />
+</div>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Dividing Line" />
@@ -142,11 +133,24 @@ khoa@workstation:~$ neofetch --profile
 ## 🐍 Contribution Graph & Activity Stream
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
+  <table>
+    <thead>
+      <tr>
+        <th>🕹️ <b>RETRO CONTRIBUTION ARCADE</b> &nbsp;|&nbsp; <code>PLAYER: @KhoaSuyThan</code> &nbsp;|&nbsp; 🟢 <b>STATUS: ACTIVE</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake.svg" />
+            <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake-dark.svg" width="100%" />
+          </picture>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <br />
@@ -155,7 +159,7 @@ khoa@workstation:~$ neofetch --profile
 <!-- GITHUB METRICS & STREAK ANALYTICS                        -->
 <!-- ======================================================== -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=KhoaSuyThan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=KhoaSuyThan&theme=tokyonight&hide_border=true&count_private=true&show_icons=true" alt="GitHub Stats" />
   <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=KhoaSuyThan&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
 </div>
 
