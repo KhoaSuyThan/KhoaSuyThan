@@ -20,6 +20,25 @@
   </a>
 </p>
 
+<!-- ======================================================== -->
+<!-- ABOUT ME / INTRODUCTION                                  -->
+<!-- ======================================================== -->
+<div align="left">
+
+👋 **Hello World!** My name is **Nguyen Vo Le Khoa**, a Software Engineering student at **HUTECH University**, Vietnam. Driven by a deep passion for technology and clean code, I am striving to become a high-impact **Full-Stack Web Engineer** and **Applied AI Developer**.
+
+🔭 **Core Focus & Research**:
+- Architecting high-performance, resilient web platforms utilizing **ASP.NET Core**, **C#**, **React**, **Vue**,...
+- Researching **Applied AI & Computer Vision** to build intelligent, practical solutions.
+
+🚀 **Dev Philosophy**:
+> *"Writing clean code, drinking good coffee ☕, and fixing bugs before they become features."*
+
+🌱 **Continuous Growth**:
+- Always exploring next-gen frameworks, building impactful side-projects (such as [SmartCV AI Builder](https://smartcv-ai.io.vn/)), and actively contributing to developer communities.
+
+</div>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Dividing Line" />
 </p>
@@ -171,10 +190,3 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Dividing Line" />
 </p>
 
-<!-- ======================================================== -->
-<!-- FOOTER QUOTE                                             -->
-<!-- ======================================================== -->
-<div align="center">
-  <p><i>"The best way to predict the future is to invent it through clean code and continuous learning."</i></p>
-  <p>⭐ <b>KhoaSuyThan</b> • Web Systems & Applied AI</p>
-</div>
