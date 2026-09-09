@@ -24,8 +24,28 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#2563eb&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#00f2fe&color_dots=#161b22,#1e293b,#0284c7,#38bdf8,#00f2fe
+            dist/github-contribution-grid-snake.svg?color_snake=#1d4ed8&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#0284c7&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Enhance Snake Color Gradient
+        run: |
+          python -c '
+          import os
+
+          def apply_gradient(file_path, colors):
+              if not os.path.exists(file_path):
+                  return
+              with open(file_path, "r", encoding="utf-8") as f:
+                  content = f.read()
+              gradient_css = f".s.s0{{fill:{colors[0]}}}.s.s1{{fill:{colors[1]}}}.s.s2{{fill:{colors[2]}}}.s.s3{{fill:{colors[3]}}}"
+              content = content.replace("</style>", gradient_css + "</style>")
+              with open(file_path, "w", encoding="utf-8") as f:
+                  f.write(content)
+
+          # Gradient xanh duong nhat dan tu dau xuong duoi
+          apply_gradient("dist/github-contribution-grid-snake-dark.svg", ["#0284c7", "#38bdf8", "#7dd3fc", "#bae6fd"])
+          apply_gradient("dist/github-contribution-grid-snake.svg", ["#1d4ed8", "#2563eb", "#60a5fa", "#93c5fd"])
+          '
 
       - name: Push Snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
