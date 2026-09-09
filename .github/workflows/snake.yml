@@ -24,6 +24,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
+            dist/snake-light.svg?color_snake=#1d4ed8&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/snake-dark.svg?color_snake=#0284c7&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
             dist/github-contribution-grid-snake.svg?color_snake=#1d4ed8&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?color_snake=#0284c7&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
@@ -43,8 +45,11 @@ jobs:
                   f.write(content)
 
           # Gradient xanh duong nhat dan tu dau xuong duoi
-          apply_gradient("dist/github-contribution-grid-snake-dark.svg", ["#0284c7", "#38bdf8", "#7dd3fc", "#bae6fd"])
-          apply_gradient("dist/github-contribution-grid-snake.svg", ["#1d4ed8", "#2563eb", "#60a5fa", "#93c5fd"])
+          for dark_file in ["dist/snake-dark.svg", "dist/github-contribution-grid-snake-dark.svg"]:
+              apply_gradient(dark_file, ["#0284c7", "#38bdf8", "#7dd3fc", "#bae6fd"])
+
+          for light_file in ["dist/snake-light.svg", "dist/github-contribution-grid-snake.svg"]:
+              apply_gradient(light_file, ["#1d4ed8", "#2563eb", "#60a5fa", "#93c5fd"])
           '
 
       - name: Push Snake SVG to output branch

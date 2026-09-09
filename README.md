@@ -162,9 +162,9 @@
       <tr>
         <td align="center">
           <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake.svg" />
-            <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/github-contribution-grid-snake-dark.svg" width="100%" />
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/snake-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/snake-light.svg" />
+            <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/KhoaSuyThan/KhoaSuyThan/output/snake-dark.svg" width="100%" />
           </picture>
         </td>
       </tr>
