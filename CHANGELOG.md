@@ -5,6 +5,11 @@ Toàn bộ các cập nhật và thay đổi mã nguồn của dự án sẽ đ�
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/vi/1.0.0/).
 
 ---
+## [2026-09-19] - Tinh Chỉnh Giao Diện Mô Phỏng AI Simulation Window
+### Đã thay đổi (Changed)
+- **Xóa nút STOP ENGINE**: Loại bỏ nút dừng màu đỏ ở góc trên thanh tiêu đề của cửa sổ mô phỏng, giúp giao diện thoáng đãng và tập trung vào luồng code.
+- **Rút ngắn chuỗi Prompt comment**: Tinh chỉnh nội dung chú thích thành `# Prompt: "Tối ưu hóa chu kỳ đèn theo thời gian thực"`, giải quyết dứt điểm việc dòng chữ dài bị tràn lề và đè lên panel Python Runtime bên phải.
+
 ## [2026-09-10] - Cập Nhật URL Snake Mới Để Xóa Triệt Để Cache Camo GitHub
 ### Đã thay đổi (Changed)
 - **Đổi tên file đầu ra thành `snake-dark.svg` và `snake-light.svg`**: Tránh tình trạng máy chủ GitHub Camo lưu cache cũ của URL trước đó ở chế độ Dark Mode, giúp người dùng thấy ngay giao diện con rắn gradient xanh dương và các ô táo xanh lá mới tinh ngay lập tức.

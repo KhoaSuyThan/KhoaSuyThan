@@ -66,9 +66,6 @@
   <rect x="480" y="12" width="135" height="24" rx="5" fill="#1b1d36" stroke="#7928ca" stroke-opacity="0.5" stroke-width="1" />
   <text x="492" y="28" class="title-font" fill="#c084fc" font-size="11" font-weight="600">🏙️ Smart City Agent</text>
 
-  <!-- Status Run Badge -->
-  <rect x="830" y="12" width="102" height="24" rx="5" fill="#e11d48" />
-  <text x="844" y="28" class="title-font" fill="#ffffff" font-size="11" font-weight="bold">STOP ENGINE</text>
 
   <!-- ================= LEFT COLUMN: CODE EDITOR (PROMPT & SMART CITY LOGIC) ================= -->
   <!-- Line Numbers -->
@@ -93,7 +90,7 @@
 
   <!-- Code Content with xml:space preserve -->
   <g class="code-font" font-size="12" xml:space="preserve">
-    <text x="50" y="82" class="cmt"># Prompt: &quot;Tối ưu hóa chu kỳ đèn tín hiệu giao thông theo mật độ xe thời gian thực&quot;</text>
+    <text x="50" y="82" class="cmt"># Prompt: &quot;Tối ưu hóa chu kỳ đèn theo thời gian thực&quot;</text>
     <text x="50" y="112"><tspan class="kw">class </tspan><tspan class="cls">AdaptiveTrafficAI</tspan>:</text>
     <text x="75" y="134"><tspan class="kw">def </tspan><tspan class="fn">optimize_cycle</tspan>(<tspan class="var">self</tspan>, <tspan class="var">h_density</tspan>: <tspan class="cls">float</tspan>, <tspan class="var">v_density</tspan>: <tspan class="cls">float</tspan>) -&gt; <tspan class="cls">dict</tspan>:</text>
     <text x="100" y="156" class="cmt"># Tối ưu nhịp stop-and-go theo luồng lưu lượng thực tế</text>
