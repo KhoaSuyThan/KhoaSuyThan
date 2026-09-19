@@ -62,7 +62,7 @@
 ## ⚡ Live AI Engine & Pipeline Simulation
 
 <div align="center">
-  <img src="assets/ai-simulation-window.svg" width="100%" alt="AI Simulation Pipeline" />
+  <img src="assets/ai-simulation-window.svg?v=2" width="100%" alt="AI Simulation Pipeline" />
 </div>
 
 <p align="center">

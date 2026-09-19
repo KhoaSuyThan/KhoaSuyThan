@@ -9,6 +9,7 @@ Toàn bộ các cập nhật và thay đổi mã nguồn của dự án sẽ đ�
 ### Đã thay đổi (Changed)
 - **Xóa nút STOP ENGINE**: Loại bỏ nút dừng màu đỏ ở góc trên thanh tiêu đề của cửa sổ mô phỏng, giúp giao diện thoáng đãng và tập trung vào luồng code.
 - **Rút ngắn chuỗi Prompt comment**: Tinh chỉnh nội dung chú thích thành `# Prompt: "Tối ưu hóa chu kỳ đèn theo thời gian thực"`, giải quyết dứt điểm việc dòng chữ dài bị tràn lề và đè lên panel Python Runtime bên phải.
+- **Thêm Cache Buster URL vào README.md**: Gắn thêm tham số `?v=2` vào đường dẫn ảnh `ai-simulation-window.svg` để ép máy chủ proxy GitHub Camo hủy bản cache cũ và tải lại ảnh mới ngay lập tức.
 
 ## [2026-09-10] - Cập Nhật URL Snake Mới Để Xóa Triệt Để Cache Camo GitHub
 ### Đã thay đổi (Changed)
